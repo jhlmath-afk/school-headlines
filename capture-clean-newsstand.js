@@ -6,7 +6,7 @@ const { chromium } = require("playwright");
 const root = __dirname;
 const rawDir = path.join(root, "newsstand-captures", "clean-raw");
 const finalDir = path.join(root, "newsstand-captures", "clean");
-const htmlPath = path.join(root, "newspaper.html");
+const htmlPath = path.join(root, "index.html");
 
 const papers = [
   { code: "023", name: "chosun" },
